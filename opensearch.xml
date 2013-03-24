@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Upload Magnet</ShortName>
+<Description>Download  music, movies, games, software and much more with Magnet Links. Upload Magnet.</Description>
+<Tags>magnetlinks, links, uplaod, piratebay, uploadmagnet
+mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, share</Tags>
+<Contact>comsc@hush.ai</Contact>
+<InputEncoding>UTF-8</InputEncoding>
+<!--<Url type="text/html" template="http://torrentz.eu/search?q={searchTerms}"/>
+<Url type="application/x-suggestions+json" template="http://torrentz.eu/suggestions.php?q={searchTerms}"/> -->
+<Image height="16" width="16" type="image/x-icon">http://localhost/images/magnet.ico</Image>
+</OpenSearchDescription>

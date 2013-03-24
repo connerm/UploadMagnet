@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: auto;	
+	font-family:Verdana,Tahoma,sans-serif;
+	background: #317ec5 url(/images/bg1.jpg) fixed no-repeat 50% 0;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight:400;
+}
+h2 {
+	font-size: 18px;
+	font-weight:200;
+}
+
+p {
+	font-size: 14px;
+}
+div#alert {
+	color:#F93;
+}
+textarea {
+	resize:none;
+	width: 80%;
+}
+/*content*/
+div.content {
+	width: 900px;
+	margin:auto;
+	background-color: #FFF;
+	border: solid 5px #FC0;
+	border-radius: 10px;
+}
+div.content>h1,h2,p {
+	padding-left: 10px;
+}
+
+/*table elements*/
+table {
+	width: 80%;
+	border: solid 3px #9C71CC;
+	background-color:#CCF;
+	border-radius:10px;
+	font-size: 14px;
+	margin: auto;
+	margin-bottom:10px;
+	
+}
+th {
+	text-align:left;
+	padding:10px 0px 10px 0px;
+}
+
+a {
+	text-decoration:none;
+}
+/*Info*/
+div#info {
+	width:80%;
+	border: solid 3px #FF6;
+	background-color:#FF9;
+	border-radius:10px;
+	font-size:12px;
+	margin: auto;
+	padding:10px;
+}
+/*centertext*/
+div#centertext {
+	text-align:center;
+}
+/*images*/
+
+/*Header Elements*/
+div#bar {
+	background-color:#000;
+	padding:1px;
+	margin-bottom:20px;
+	height:50px;
+}
+div.top {
+	width:950px;
+	margin:auto;
+}
+div.top>h1>a {
+	color:#FFF;
+	display:inline;
+	font-size:30px;
+	font-weight:400;
+	text-align:center;
+	text-decoration:none;
+}
+div.top>h1>a:hover {
+	color:#F93;
+}
+
+div.top>ul {
+	display:inline;
+	list-style-type:none;
+}
+
+div.top>ul>li {
+	display:block;
+	float:left;
+	height:50px;	
+	padding: 0px 10px 0px 10px;
+	border-right: solid 1px #666;
+}
+
+div.top>ul>li>a {
+	color:#FC6;
+	display:block;
+	float:left;
+	font-size:18px;
+	height:30px;
+	text-decoration:none;
+	padding-top:10px;
+}
+div.top>ul>li:hover {
+	background-color:#1D1D1D;
+	border-bottom: solid 8px #333;
+	border-radius: 0px 0px 4px 4px;
+}
+div.top>ul>li>a:hover {
+	color:#F93;
+}
+form.search {
+	float:right;
+}
+#searchbox {
+	height:30px;
+	font-size:16px;
+	text-color:#06C;
+	background-color:#FFF;
+	border:solid 2px #FC0;
+	border-radius: 5px;
+	margin-top:5px;
+}
+#searchbutton {
+	font-size:18px;
+	text-align: center;
+	height:30px;
+	background-color:#FFF;
+	border:solid 2px #FC0;
+	border-radius:5px;
+	color:#FC0;
+}
+#searchbutton:hover {
+	color:#F93;
+}
+
+/*Footer element*/
+div.footer {
+	font-family:Verdana,Tahoma,sans-serif;
+	font-size: 12px;
+	text-align: center;
+	margin: 10px;
+	color:#FFF;
+}
+div.footer>a {
+	
+}
+div.addthis_toolbox {
+	width:130px;
+	margin:auto;
+	margin-bottom:10px;
+}
+div.addthis_toolbox#link {
+	float:left;
+	padding-left:10px;
+}
